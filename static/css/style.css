@@ -1,11 +1,34 @@
+/* Overall style for elements*/
+html {
+    min-height: 100%;
+}
+
+i {
+    font-size: 20px;
+}
+
+/* Style for index page */
+
 #big-div {
     width: 97%;
+    /*background-image: url(/images/styling/Skärmavbild\ 2015-12-02\ kl.\ 20.15.54.png);*/
+    background-color: #cccccc; /* Used if the image is unavailable */
+    /* height: 100%; You must set a specified height
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;  */
+    background: url(/images/styling/Skärmavbild\ 2015-12-02\ kl.\ 20.15.54.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
 }
 
 #little-div {
     width: 3%;
 }
 
-i {
-    font-size: 20px;
+#thebox {
+    /*box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;*/
+    /* Box shadow code from https://getcssscan.com/css-box-shadow-examples */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
