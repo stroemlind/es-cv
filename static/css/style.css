@@ -3,6 +3,13 @@ html {
     min-height: 100%;
 }
 
+body {
+    background: url(/images/styling/Skärmavbild\ 2015-12-02\ kl.\ 20.15.54.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
 i {
     font-size: 20px;
 }
@@ -12,15 +19,10 @@ i {
 #big-div {
     width: 97%;
     /*background-image: url(/images/styling/Skärmavbild\ 2015-12-02\ kl.\ 20.15.54.png);*/
-    background-color: #cccccc; /* Used if the image is unavailable */
     /* height: 100%; You must set a specified height
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;  */
-    background: url(/images/styling/Skärmavbild\ 2015-12-02\ kl.\ 20.15.54.png) no-repeat center center fixed;
-    background-size: cover;
-    height: 100vh;
-    overflow: hidden;
 }
 
 #little-div {
