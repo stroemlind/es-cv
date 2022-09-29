@@ -1,13 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC:wght@400;700&family=Permanent+Marker&family=Quicksand:wght@300;400&display=swap');
+
+/*
+font-family: 'Abril Fatface', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Quicksand', sans-serif;
+*/
+
+
 /* Overall style for elements*/
 html {
     min-height: 100%;
 }
 
 body {
-    background: url(/images/styling/Skärmavbild\ 2015-12-02\ kl.\ 20.15.54.png) no-repeat center center fixed;
+    /*background: url(/images/styling/Skärmavbild\ 2015-12-02\ kl.\ 20.15.54.png) no-repeat center center fixed;*/
     background-size: cover;
+    background-color: rgb(204, 207, 255);
     height: 100vh;
     overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
 }
 
 i {
@@ -31,7 +43,11 @@ a:hover {
     /* height: 100%; You must set a specified height
     background-position: center; 
     background-repeat: no-repeat; 
-    background-size: cover;  */
+    background-size: cover;*/
+}
+
+.heading {
+    font-family: 'Abril Fatface', cursive;
 }
 
 #little-div {
