@@ -18,7 +18,7 @@ body {
     background-size: cover;
     background-color: rgb(204, 207, 255);
     height: 100vh;
-    overflow: hidden;
+    /*overflow: hidden;*/
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -58,4 +58,10 @@ a:hover {
     /*box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;*/
     /* Box shadow code from https://getcssscan.com/css-box-shadow-examples */
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* Portfolio list image style */
+.thumbnail {
+    max-height: 200px;
+    width: auto;
 }
