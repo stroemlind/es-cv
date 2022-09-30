@@ -50,7 +50,7 @@ a:hover {
     font-family: 'Abril Fatface', cursive;
 }
 
-#little-div {
+.footer {
     width: 3%;
 }
 
@@ -64,4 +64,8 @@ a:hover {
 .thumbnail {
     max-height: 200px;
     width: auto;
+}
+
+.portfoliolistbox {
+    width: 97%;
 }
