@@ -69,3 +69,10 @@ a:hover {
 .portfoliolistbox {
     width: 97%;
 }
+
+/* Media Querie for screen size 870px and down */
+@media screen and (max-width: 870px) {
+    .footer {
+        width: 100%;
+    }
+}
